@@ -1,8 +1,0 @@
-com\niit\service\BookService.class
-com\niit\dao\BookDaoImpl.class
-com\niit\service\BookServiceImpl.class
-com\niit\controller\BookController.class
-com\niit\dao\BookDao.class
-com\niit\model\Category.class
-com\niit\controller\HomeController.class
-com\niit\model\Book.class
