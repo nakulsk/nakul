@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+element {
+	
+}
+
+.container.jumbotron {
+	background-color: transparent;
+}
+
+.container {
+	width: -moz-calc;
+}
+
+.table .table {
+	background-image: url(_images/2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: aqua;
+}
+</style>
+<body>
+	<div class="table table-striped table-responsive transbox">
+		<table class="table">
+			<tr style="background-color: rgba(32, 178, 170, 0.1); width: 100%;"
+				ng-repeat="f in friends">
+				<td>{{f.fromId}}</td>
+				<td>{{f.toId}}</td>
+				<td><a href="" ng-click="" class="btn btn-default">chat</a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
